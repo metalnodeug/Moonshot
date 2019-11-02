@@ -10,7 +10,7 @@ import SwiftUI
 
 struct ContentView: View {
     let astronauts: [Astronaut] = Bundle.main.decode("astronauts.json")
-    let missions: [Mission] = Bundle.main.decode("mission.json")
+    let missions: [Mission] = Bundle.main.decode("missions.json")
 
     var body: some View {
         NavigationView {
@@ -18,7 +18,7 @@ struct ContentView: View {
                 NavigationLink(destination: Text("Detail view")) {
                     Image(mission.image)
                         .resizable()
-                        .aspectRatio(contentMode: .fit)
+                        .scaledToFit()
                         .frame(width: 44, height: 44)
 
                     VStack(alignment: .leading) {
