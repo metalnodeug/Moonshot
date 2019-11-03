@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6F99FC29236F791900FC7652 /* MissionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F99FC28236F791900FC7652 /* MissionView.swift */; };
 		6FE49F3A236CED4400306B5D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FE49F39236CED4400306B5D /* AppDelegate.swift */; };
 		6FE49F3C236CED4400306B5D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FE49F3B236CED4400306B5D /* SceneDelegate.swift */; };
 		6FE49F3E236CED4400306B5D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FE49F3D236CED4400306B5D /* ContentView.swift */; };
@@ -21,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6F99FC28236F791900FC7652 /* MissionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionView.swift; sourceTree = "<group>"; };
 		6FE49F36236CED4400306B5D /* Moonshot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Moonshot.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6FE49F39236CED4400306B5D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6FE49F3B236CED4400306B5D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -68,6 +70,7 @@
 			children = (
 				6FE49F39236CED4400306B5D /* AppDelegate.swift */,
 				6FE49F3B236CED4400306B5D /* SceneDelegate.swift */,
+				6F99FC28236F791900FC7652 /* MissionView.swift */,
 				6FE49F3D236CED4400306B5D /* ContentView.swift */,
 				6FEEDBF6236DD5DA0019DF50 /* Mission.swift */,
 				6FEEDBF2236DD4530019DF50 /* Astronaut.swift */,
@@ -163,6 +166,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6F99FC29236F791900FC7652 /* MissionView.swift in Sources */,
 				6FEEDBF7236DD5DA0019DF50 /* Mission.swift in Sources */,
 				6FE49F3A236CED4400306B5D /* AppDelegate.swift in Sources */,
 				6FE49F3C236CED4400306B5D /* SceneDelegate.swift in Sources */,
